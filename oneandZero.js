@@ -10,3 +10,4 @@ let parsaArr = arr =>{
 }
 console.log(parsaArr(arr));
 
+// return 11
