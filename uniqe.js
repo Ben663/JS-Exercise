@@ -5,7 +5,7 @@ There is an array with some numbers. All numbers are equal except for one. Try t
 function findUniq(numbers) {
     return numbers.find(i => numbers.filter(x => x === i).length === 1)
 }
-console.log(findUniq([1, 1, 1, 2, 1, 1]));
-console.log(findUniq([0, 0, 0,0.55, 0, 0]));
+console.log(findUniq([1, 1, 1, 2, 1, 1])); // return 2
+console.log(findUniq([0, 0, 0, 0.55, 0, 0])); // return 0.55
 
 
