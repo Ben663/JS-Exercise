@@ -7,7 +7,7 @@ function yesorNo(value)
 {
     return value ? "YES" : "NO" ;
 }
-console.log(yesorNo(true)); //
-console.log(yesorNo(false));
-console.log(yesorNo("Hola"));
-console.log(yesorNo(0));
+console.log(yesorNo(true)); // return yes
+console.log(yesorNo(false)); // return no
+console.log(yesorNo("Hola")); // return yes
+console.log(yesorNo(0)); // return no
