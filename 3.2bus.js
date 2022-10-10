@@ -13,11 +13,10 @@ Please keep in mind that the test cases ensure that the number of people in the 
 The second value in the first integer array is 0, since the bus is empty in the first bus stop.
 */
 
-var number = (busStops) => {
-    var people = 0;
-    for (let stop of busStops ) {
-        people += stop[0] - stop[1];
-    }
-    return people;
-};
-//console.log(number);
+// function busStops (value) {
+//     let p = value = [[12,0],[5,8],[4,15],[2,9]];
+//     busStops.foreach(a => p = p + a[0] - a[1]);
+//     return p;
+// };
+// console.log(p[0,0]);
+
