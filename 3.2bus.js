@@ -13,10 +13,12 @@ Please keep in mind that the test cases ensure that the number of people in the 
 The second value in the first integer array is 0, since the bus is empty in the first bus stop.
 */
 
-// function busStops (value) {
-//     let p = value = [[12,0],[5,8],[4,15],[2,9]];
-//     busStops.foreach(a => p = p + a[0] - a[1]);
-//     return p;
-// };
-// console.log(p[0,0]);
+const testArr =  [[10,0],[9,1],[8,2],[7,3],[6,4],[5,5],[4,6],[3,7],[2,8],[1,9],[0,9]];
+function busStops (arr) {
+    let people = 0;
+    for (let i = 0; i < arr.length; i++) {
+        people = people + arr[i][0] - arr[i][1];
+    }
+}
+console.log(busStops(testArr[1,1]));
 
